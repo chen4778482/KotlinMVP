@@ -20,7 +20,6 @@ import javax.inject.Inject
 /**
  * Created by Administrator on 2018/3/8.
  */
-
 class RegisterActivity : BaseActivity(), RegisterMvpView {
 
     @Inject
@@ -39,7 +38,6 @@ class RegisterActivity : BaseActivity(), RegisterMvpView {
             actionBar.setDisplayHomeAsUpEnabled(true)
             actionBar.setDisplayShowTitleEnabled(false)
         }
-        Timber.e("你爱的是谁")
         buton.setOnClickListener(View.OnClickListener { Toast.makeText(this, "哈哈哈哈哈", Toast.LENGTH_SHORT).show() })
     }
 
